@@ -12,7 +12,7 @@
 
 if(!isServer) exitwith {};
 diag_log format["WASTELAND SERVER - Mission Started"];
-private ["_base","_unitsAlive","_playerPresent","_missionType","_successTextColour","_mainTextColour","_failTextColour","_subTextColour","_picture","_vehicleName","_rad","_centerPos","_missionTimeOut","_missionDelayTime","_missionTriggerRadius","_missionPlayerRadius","_flatAreas","_randomArea","_hint","_startTime","_currTime","_result","_tank", "_randomPos"];
+private ["_base","_unitsAlive","_playerPresent","_missionType","_randomIndex","_successTextColour","_mainTextColour","_failTextColour","_subTextColour","_picture","_vehicleName","_rad","_centerPos","_missionTimeOut","_missionDelayTime","_missionTriggerRadius","_missionPlayerRadius","_flatAreas","_randomArea","_hint","_startTime","_currTime","_result","_tank", "_randomPos"];
 
 //Mission Initialization.
 _rad=20000;

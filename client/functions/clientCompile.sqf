@@ -1,10 +1,3 @@
-//	@file Version: 1.0
-//	@file Name: clientCompile.sqf
-//	@file Author: [404] Deadbeat
-//	@file Created: 20/11/2012 05:19
-//	@file Args:
-
-
 onRespawn = compile preprocessfile "client\clientEvents\onRespawn.sqf";
 onKilled = compile preprocessfile "client\clientEvents\onKilled.sqf";
 onFired = compile preprocessfile "client\clientEvents\onFired.sqf";
@@ -24,7 +17,6 @@ teamkillMessage = compile preprocessFileLineNumbers "client\functions\showTeamKi
 loadGeneralStore = compile preprocessFileLineNumbers "client\systems\generalStore\loadGenStore.sqf";
 loadGunStore = compile preprocessFileLineNumbers "client\systems\gunStore\loadGunStore.sqf";
 
-player groupChat "Client Compile Complete";
 sleep 1;
 playerCompiledScripts = true;
 

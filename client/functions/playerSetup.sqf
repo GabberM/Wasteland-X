@@ -38,5 +38,4 @@ _player setVariable["gSpawnBeacon",0,true];
 
 [] execVM "client\functions\playerActions.sqf";
 
-_player groupChat format["Player Initialization Complete"];
 playerSetupComplete = true;

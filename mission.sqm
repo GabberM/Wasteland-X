@@ -36,8 +36,8 @@ class Mission
 	randomSeed=10079095;
 	class Intel
 	{
-		briefingName="Wasteland X [v1.0]";
-		briefingDescription="Wasteland X is a harsh survival sandbox";
+		briefingName="404Wasteland Custom [v2.8a]";
+		briefingDescription="Wasteland is a harsh survival sandbox";
 		resistanceWest=0;
 		startWeather=0.25;
 		forecastWeather=0.25;
